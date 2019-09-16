@@ -70,7 +70,7 @@ interface IERC20 {
 }
 
 
-contract ERC20 is IERC20 {
+contract ERC20 is IERC209 {
     using SafeMath for uint256;
 
     mapping (address => uint256) private _balances;
